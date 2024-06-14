@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navbar-brand .navbar-item {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-start .navbar-item {
+  margin-left: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
+}
+
+.but{
+  margin: 1rem calc(50% - 70px); 
+  width: max-content;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.butt{
+  width: max-content;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.but:hover {
+  background-color: #555;
+}
+
+.grps {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} 
+table {
+  width: 100%;
+}
+.tt{
+  width: 100%;
+  padding: 1rem;
+  border-collapse: collapse;
+  background-color: #333;
+  color: #fff;
+}
+.tt th {
+  padding: 5px;
+}
+td{
+  padding: 5px;
+  text-align: center;
+  background-color: #a6a0a0;
+}
